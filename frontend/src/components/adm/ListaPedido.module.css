@@ -1,0 +1,121 @@
+.linhaHorizontalCadastro {
+  width: 100%;
+  border: 0.05px outset rgba(144, 202, 252, 0.26);
+  margin-top: 1em;
+}
+
+.tituloListarPedido {
+  color: #959595;
+  margin-top: 2%;
+}
+
+.buttonExpandir {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  height: 2em;
+  width: 15em;
+  background: #146b97b2;
+  margin: 20px 0;
+  border: none;
+  border-radius: 7px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.buttonExpandir:hover,
+.paginacaoButton:hover {
+  background-color: #146b97;
+  color: white;
+}
+
+.paginacaoButton {
+  margin-top: 20px;
+  margin-right: 5px;
+  color: white;
+  background: #146b97b2;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.containerCadastroLivro {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.tituloListarPedido {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.linhaHorizontal {
+  height: 1px;
+  background-color: #ccc;
+  margin-bottom: 20px;
+}
+
+.tableContainer {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+  color: #959595;
+  text-align: center;
+}
+
+td {
+  color: #146b97;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+ul ul {
+  margin-left: 20px;
+}
+
+.listaPedidoLi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listaPedidoLiDiv {
+  margin: 0 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .buttonExpandir {
+    width: 100%;
+  }
+
+  .tableContainer {
+    overflow-x: auto;
+    max-width: 100%;
+  }
+  
+  .inputCadastrar {
+    max-width: 400px;
+  }
+}

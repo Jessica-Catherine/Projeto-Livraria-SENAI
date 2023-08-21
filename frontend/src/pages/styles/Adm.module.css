@@ -1,0 +1,41 @@
+
+*{
+    scroll-behavior: smooth;
+    text-decoration: none;
+
+}
+
+.container{
+  margin: 0 8%;
+}
+
+.containerAdmSecao{
+  display: inline-block;
+  width: 100%;
+
+}
+
+.containerAdm{
+    margin-top: 100px;
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .container{
+      margin: 0 5% 0 5%;
+  }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .container{
+      margin: 0 5% 0 5%;
+  }
+
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+
+  .container{
+      margin: 0 5% 0 5%;
+  }
+}

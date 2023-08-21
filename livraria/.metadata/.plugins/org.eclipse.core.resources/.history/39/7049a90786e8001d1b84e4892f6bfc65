@@ -1,0 +1,9 @@
+package br.senai.sp.livraria.dto;
+
+import br.senai.sp.livraria.model.entity.DetalheLivro;
+import br.senai.sp.livraria.model.entity.Livro;
+
+public class LivroDetalheDTO {
+    private Livro livro;
+    private DetalheLivro detalheLivro;
+}

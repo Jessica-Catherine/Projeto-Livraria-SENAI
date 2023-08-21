@@ -1,0 +1,740 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: none;
+}
+
+
+.modalCarrinhoContainer, .modalFavoritoContainer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+
+.modalBackground {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+}
+
+.modalCarrinho, .modalFavorito {
+  position: fixed;
+  width: 100%;
+  max-height: 80vh;
+  overflow-y: auto;
+  background: whitesmoke;
+  border-radius: 10px;
+  padding: 20px;
+  z-index: 999;
+}
+
+.modalFavorito {
+  width: 40%;
+  max-height: 100vh;
+
+}
+.containerCard {
+  display: inline-block;   
+  justify-content: space-between;
+  text-decoration: none;  
+  margin: 30px;
+  height: auto;
+  margin-left: 30px;
+  max-height: 500px;
+}
+
+.card{
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 5px rgba(1, 23, 61, 0.22);
+  padding: 15px 45px;
+  transition: all 0,3s ease-out;
+  background: whitesmoke;
+  width: 250PX;
+  text-align: center; 
+  height: auto;
+  max-height: 450px;
+
+}
+
+.cardImageLivro {
+  width: 100%;
+  max-height: 200px;
+}
+
+
+
+.cardTitulo {
+  height: 2vh;
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+.navbarCesta, .sacolaH1{
+  color: whitesmoke;
+  font-size: 1.3em;
+  margin: 0;
+}
+
+.sacolaH1{
+  margin: 0 0 0 10px;
+  font-size: 1.3em;
+
+}  
+
+  
+.navBarCarrinho, .navBarFavorito{
+  background: #015a80;
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 7px;
+}
+
+.linhaHorizontal {
+  width: 100%;
+  border: 0.05px outset rgba(144, 202, 252, 0.26);
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
+
+.navBarCarrinhoUl, .navBarFavoritoUl{
+  display: flex;
+  margin: 0 0 0 1em;
+  padding: 0;
+  list-style-type: none;
+}
+
+.containerPagto{
+  display: grid;
+  grid-template-columns: 53em 23em;
+  grid-template-rows: 50em;
+  color: #146b97; 
+  overflow: auto;
+  gap: 1em;
+}
+
+
+.thSecao, .thSecaoInf, .thSecaoTit, .thSecaoTitN{
+  background-color: #cccccc31;
+  text-align: left;
+  vertical-align: top;
+  padding: 10px;
+  color: #015a80;
+}
+
+.thSecaoTit, .thSecaoTitN{
+  background-color: #cccccc31;;
+  font-weight: 700;
+  font-size: 1.2em;
+  color: #146b97
+}
+
+.thSecaoTit{
+  width: 12em;
+}
+
+.thSecaoInf{
+  width: 38em;
+}
+
+.tablePagamento{
+    border-collapse: collapse;
+}
+
+select {
+  width:210px;
+  height: 40px;
+  font-size: 15px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+}
+select:focus {
+  outline: none;
+}
+
+.ficha{
+  border: solid 1px rgb(205, 231, 255);
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 1px 1px 20px 1px rgba(1, 23, 61, 0.042);
+
+}
+
+
+
+
+
+.imgFechar{
+  color: white;
+  /* background-color: white; */
+  font-size: 1.5em;
+}
+
+.navBarCarrinhoButton, .navBarfavoritoButton{
+  border:none;
+  background:   #015a80;;
+  cursor: pointer;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.bodyLista{
+  height: 50vh;
+  overflow-y: scroll; 
+}
+
+.bodyListaFavorito{
+  height: 60vh;
+  overflow-y: scroll; 
+}
+
+.listaItemCarrinho, .listaItemFavorito{
+  width: 100%;
+
+}
+
+.containerLista {
+  display: grid;
+  grid-template-columns: 6.5em 24.5em;
+  grid-template-rows: 10em;
+  padding: 20px;
+  color: #146b97;  
+  margin: 0;
+  justify-content: center;
+
+}
+
+.containerListaFavorito {
+  display: flex;
+  padding: 20px;
+  color: #146b97;  
+  margin: 0;
+  width: 15em;
+  height: 18em;
+  justify-content: center;
+  background-color: #555;
+  border-radius: 5px;
+
+}
+
+.gridListaImg{
+  width: 6.5em;
+}
+
+.divImg{
+  justify-content: center;
+  width: 6em;
+}
+
+.imagemGrid{
+  box-shadow: 2px 2px 15px 0 rgba(1, 23, 61, 0.078);
+  border-radius: 8px 0 0 8px;
+  width: 100%;
+}
+
+.containerListaInfo{
+  color: #146b97;
+
+}
+
+
+.divComprarLivros{
+  background: #cccccc31;
+  border-radius: 0 8px 8px 0;
+  box-shadow: 0 2px 15px 2px rgba(1, 23, 61, 0.078);
+  display: grid;
+  grid-template-columns: 1f 1f 1f;
+  grid-template-rows: 3em 3em 3em;
+}
+
+.divTituloExcluir{
+  display: inline-block;
+  margin: 0 0 0 1em;
+}
+
+.tituloItem{
+  color: #146b97; 
+  font-weight: 600;
+} 
+
+.imgExcluirItemCarrinho, .imgExcluirItemFavorito{
+  font-size: 1em;
+  text-decoration: none;
+  border: none;
+  color: #146b97;  
+  background:rgba(205, 231, 255, 0.766);
+  margin-left: 7%;
+}
+
+.imgExcluirItemFavorito{
+  background:whitesmoke;
+  font-size: 1.5rem;
+  margin-top: 15px;
+}
+
+.imgExcluirItemFavorito:hover{
+  cursor: pointer;
+  color: #5d5d5d; 
+} 
+
+.imgExcluirItemCarrinho:hover{
+  cursor: pointer;
+  color: #0f4a67; 
+  background:rgb(205, 231, 255);
+} 
+.qtde, .divPreco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #146b97;
+}
+
+
+.precoAntigo{
+  text-decoration: line-through;
+  color: brown;
+
+}
+
+.precoOferta, .precoRegular, .precoTit{
+  color: #146b97; 
+  text-decoration: none;
+}
+
+
+
+.divNomeExcluir {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #146b97;
+  justify-content: space-around;
+}
+
+
+
+.totalCarrinho{
+  background:   #015a80;
+  width: 100%;
+  justify-content: center;
+  border-radius: 7px;
+
+}
+
+.valorCarrinho{
+  width: 100%;
+  padding: 1.5em;
+  
+}
+
+.carrinhoButtonComprar{
+  width: 100%;
+  height: 2.3em;
+  text-align: center;  
+  border-radius: 7px;
+  text-decoration: none;
+  border: none;
+  color: #146b97;  
+  align-items: center;
+  font-size: 15px;
+  margin-top: 12px;  
+  background: #dadada;
+}
+
+.carrinhoButtonComprar:hover{
+  cursor: pointer;
+  background: #b3b3b3;
+  text-decoration: none;
+  color: white;  
+}
+
+.editarEndereco{
+  text-decoration: none;
+  color: #146b97;
+  font-size: 20px;
+}
+
+.editarEndereco:hover{
+  color: #9c9c9c;
+}
+
+
+
+
+.spanRegular{
+  color: #146b97; 
+  margin: 0;
+  font-size: 14px;
+  background: whitesmoke;
+  height: 1.5em;
+}
+
+
+.buttonQtde{
+  border: none;
+  width: 30px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #d2d2d27d;
+  color: #146b97; 
+}
+
+.buttonQtde:hover{
+  cursor: pointer;
+  background-color: #d2d2d2d8;
+  text-decoration: none;
+  color: rgb(255, 255, 255)
+}
+
+.spanQtde {
+  max-width: 3rem; 
+  padding: 0.2rem 0.7rem; 
+  background-color: #dad9d9;
+  border-radius: 5px; 
+  color: #146b97; 
+}
+
+
+.valorSubtotal, .valorTotal{
+  display: flex;
+  justify-content: space-between;
+  padding: 7px;
+  flex-wrap: nowrap;
+  font-size: 18px;
+  color: rgb(192, 225, 255);
+  border-radius: 10px;
+  margin-bottom: 0;
+  list-style-type: none;
+}
+
+.valorSubtotal, .valorTotal{
+  color: white;
+
+}
+
+.valorTotal{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+span{
+  margin: 15px;
+}
+
+/* Estilos para a barra de rolagem no Google Chrome */
+::-webkit-scrollbar {
+  width: 10px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Cor de fundo da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Cor da barra de rolagem */
+  border-radius: 2px; /* Raio da borda da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Cor da barra de rolagem ao passar o mouse */
+}
+
+/* Estilos para a barra de rolagem no Mozilla Firefox */
+/* As propriedades para o Firefox não funcionam em versões mais recentes */
+/* Use o prefixo -moz- para definir as propriedades */
+/* Para versões mais recentes do Firefox, é necessário usar uma solução alternativa com JavaScript */
+
+
+.buttonCompra{
+  width: 100%;
+  height: 2.3em;
+  border-radius: 10px;
+  background: #015a80;
+  border: none;
+  margin-top: 15px;   
+  cursor: pointer;
+}
+
+.h1AdicionarSacola{
+  font-size: 12px;
+  text-align: center;  
+  font-weight: bold;
+  margin: 0;
+  color: #ffff;
+}
+
+
+.h2AdicionarSacola{
+  color: #146b97; 
+ text-align: center;  
+  font-weight: bold;
+}
+
+.buttonFecharModal{
+  background: #015a80;
+  border-radius: 50%;
+  width: 2em;
+  height: 1.7em;
+  border: none;
+}
+
+.buttonCompra:hover{
+  background: #015a8078;
+}
+
+.imgFechar{
+  color: #cccccc31;;
+  margin-top: 4px;
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .modalCarrinho {
+    width: 60%;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .thSecao, .thSecaoInf, .thSecaoTit, .thSecaoTitN{
+    background-color: #cccccc31;;
+    text-align: left;
+    vertical-align: top;
+    padding: 10px;
+    color: #033579;
+  }
+  
+  .thSecaoTit, .thSecaoTitN{
+    background-color: #cccccc31;;
+    font-weight: 700;
+    font-size: 0.9em;
+    width: 9em;
+  }
+  
+  .thSecaoTit{
+    font-size: 0.9em;
+    width: 9em;
+  }
+  
+  .thSecaoInf{
+    font-size: 0.9em;
+  }
+  
+  
+  .ficha{
+    border: solid 1px rgb(205, 231, 255);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 1px 1px 20px 1px rgba(1, 23, 61, 0.042);
+  
+  }
+  
+
+}
+
+@media only screen and (min-width: 992px) {
+  .modalCarrinho {
+    width: 40%;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  .modalCarrinhoContainer {
+    /* Define the styles for mobile screens */
+    /* Example styles: */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    overflow: auto;
+  }
+
+  .modalBackground {
+    /* Example styles: */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .modalCarrinho {
+    /* Example styles: */
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+  }
+
+  .bodyLista {
+    padding: 10px;
+  }
+
+  .tableSecao {
+    width: 100%;
+  }
+
+  .thSecaoTitN {
+    display: none;
+  }
+
+  .thSecaoTit {
+    font-size: 1.2em;
+  }
+
+  .listaItemCarrinho {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+
+  .containerLista {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .gridListaImg {
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .divImg {
+    text-align: center;
+  }
+
+  .imagemGrid {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .containerListaInfo {
+    flex: 1 0 100%;
+  }
+
+  .gridListaInfo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .divComprarLivros {
+    width: 100%;
+  }
+
+  .divTituloExcluir {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .tituloTipoLivro {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+  }
+
+  .tituloItem {
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+  }
+
+  .imgExcluirItemCarrinho {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .divPreco {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .precoTit {
+    font-size: 1.1em;
+    margin-right: 10px;
+  }
+
+  .precoAntigo {
+    text-decoration: line-through;
+    color: #999;
+  }
+
+  .precoOferta {
+    font-weight: bold;
+  }
+
+  .precoRegular {
+    font-weight: bold;
+  }
+
+  .qtde {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .buttonQtde {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .modalCarrinhoContainer {
+    /* Define the styles for tablet screens */
+  }
+
+  .modalBackground {
+    /* Example styles: */
+    /* ... */
+  }
+
+  .modalCarrinho {
+    /* Example styles: */
+    /* ... */
+  }
+}
+
+

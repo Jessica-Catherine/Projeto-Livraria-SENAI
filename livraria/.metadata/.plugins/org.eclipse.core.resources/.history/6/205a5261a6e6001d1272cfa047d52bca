@@ -1,0 +1,23 @@
+package br.senai.sp.livraria.model.repository;
+
+import java.util.List;
+
+import br.senai.sp.livraria.model.entity.Livro;
+import br.senai.sp.livraria.model.entity.Usuario;
+
+public interface UsuarioRepository {
+
+
+	List<Livro> findAll();
+
+	Object findById(Long id);
+
+	void deleteById(Long id);
+
+	Usuario save(Usuario usuario);
+
+
+
+
+
+}

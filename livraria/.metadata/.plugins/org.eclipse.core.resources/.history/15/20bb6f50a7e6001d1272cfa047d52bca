@@ -1,0 +1,60 @@
+package br.senai.sp.livraria.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import br.senai.sp.livraria.model.entity.Usuario;
+
+
+@RestController
+@RequestMapping("/usuario")
+public class UsuarioController {
+
+    @Autowired
+    private UsuarioService usuarioService;
+
+    @PostMapping
+    public ResponseEntity<Usuario> criar(@RequestBody Usuario usuario) {
+        Usuario usuarioSalvo = usuarioService.salvar(usuario);
+        return ResponseEntity.status(HttpStatus.CREATED).body(usuarioSalvo);
+    }
+
+    @GetMapping("")
+    public ResponseEntity<List<Usuario>> listarTodos() {
+        List<Usuario> usuarios = usuarioService.listarTodos();
+        return ResponseEntity.ok(usuarios);
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<Usuario> buscarPorId(@PathVariable Long id) {
+        Usuario usuario = usuarioService.buscarPorId(id);
+        return ResponseEntity.ok(usuario);
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<Usuario> atualizar(@PathVariable Long id, @RequestBody Usuario usuarioAtualizado) {
+        Usuario usuario = usuarioService.buscarPorId(id);
+        usuario.setTitulo(usuarioAtualizado.getTitulo());
+        usuario.setAutor(usuarioAtualizado.getAutor());
+        usuario.setAnoPublicacao(usuarioAtualizado.getAnoPublicacao());
+        usuario.setSinopse(usuarioAtualizado.getSinopse());
+        usuario.setGenero(usuarioAtualizado.getGenero());
+        usuario.setEditora(usuarioAtualizado.getEditora());
+        usuario.setQtdePagina(usuarioAtualizado.getQtdePagina());
+        usuario.setOferta(usuarioAtualizado.getOferta());
+        usuario.setDestaque(usuarioAtualizado.getDestaque());
+        usuario.setImagem(usuarioAtualizado.getImagem());
+        Usuario usuarioAtualizadoSalvo = usuarioService.salvar(usuario);
+        return ResponseEntity.ok(usuarioAtualizadoSalvo);
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> excluir(@PathVariable Long id) {
+        usuarioService.excluir(id);
+        return ResponseEntity.noContent().build();
+    }
+}

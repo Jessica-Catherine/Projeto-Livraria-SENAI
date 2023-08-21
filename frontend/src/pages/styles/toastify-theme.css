@@ -1,0 +1,55 @@
+/* custom-toastify.css */
+
+.Toastify__toast-container {
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+  }
+  
+  .Toastify__toast {
+    margin-top: 10px; 
+    padding: 20px;
+    color: #146b97;  
+    
+} */
+
+
+  /* toast.css
+
+/* Estilize a mensagem da notificação */
+.Toastify__toast--success {
+    background: rgba(192, 225, 255, 0.448) !important;
+    color: #146b97 !important;
+    font-size: 16px !important;
+    text-align: center !important;
+  }
+  
+  
+  /* Estilize o container das notificações
+  .Toastify__toast-container {
+    width: 20%;
+    padding-top: 20px;
+    top: 0;
+    left: 0;
+  }
+   */
+
+  
+  /* Estilize a barra de progresso em caso de erro */
+  .Toastify__progress-bar--error {
+    background: red;
+    height: 3px;
+  }
+  
+  /* Estilize a barra de progresso em caso de sucesso */
+  .Toastify__progress-bar--success {
+    background:  #146b97;
+    height: 3px;
+  
+  } 

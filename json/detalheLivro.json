@@ -1,0 +1,80 @@
+{
+  "tipoLivro": "FISICO",
+  "preco": 45.99,
+  "qtdeEstoque": 100,
+  "livro": {
+    "id": 1
+  }
+}
+{
+  "tipoLivro": "EBOOK",
+  "preco": 29.99,
+  "qtdeEstoque": 50,
+  "livro": {
+    "id": 1
+  }
+}
+{
+  "tipoLivro": "FISICO",
+  "preco": 34.99,
+  "qtdeEstoque": 75,
+  "livro": {
+    "id": 2
+  }
+}
+{
+  "tipoLivro": "EBOOK",
+  "preco": 19.99,
+  "qtdeEstoque": 200,
+  "livro": {
+    "id": 2
+  }
+}
+{
+  "tipoLivro": "FISICO",
+  "preco": 59.99,
+  "qtdeEstoque": 40,
+  "livro": {
+    "id": 3
+  }
+}
+{
+  "tipoLivro": "EBOOK",
+  "preco": 14.99,
+  "qtdeEstoque": 150,
+  "livro": {
+    "id": 4
+  }
+}
+{
+  "tipoLivro": "FISICO",
+  "preco": 24.99,
+  "qtdeEstoque": 90,
+  "livro": {
+    "id": 5
+  }
+}
+{
+  "tipoLivro": "EBOOK",
+  "preco": 9.99,
+  "qtdeEstoque": 300,
+  "livro": {
+    "id": 5
+  }
+}
+{
+  "tipoLivro": "FISICO",
+  "preco": 49.99,
+  "qtdeEstoque": 60,
+  "livro": {
+    "id": 6
+  }
+}
+{
+  "tipoLivro": "EBOOK",
+  "preco": 39.99,
+  "qtdeEstoque": 100,
+  "livro": {
+    "id": 7
+  }
+}

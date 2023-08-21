@@ -1,0 +1,40 @@
+package br.senai.sp.livraria.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import br.senai.sp.livraria.model.entity.Livro;
+import br.senai.sp.livraria.model.entity.Usuario;
+import br.senai.sp.livraria.model.repository.usuarioRepository;
+import br.senai.sp.livraria.model.repository.UsuarioRepository;
+
+
+@Service
+public class UsuarioService {
+
+    @Autowired
+    private UsuarioRepository usuarioRepository;
+
+    @Transactional
+    public Usuario salvar(Usuario usuario) {
+        return usuarioRepository.save(usuario);
+    }
+
+    @Transactional(readOnly = true)
+    public List<Livro> listarTodos() {
+        return usuarioRepository.findAll();
+    }
+
+    @Transactional(readOnly = true)
+    public Livro buscarPorId(Long id) {
+        return usuarioRepository.findById(id).orElseThrow(() -> new RuntimeException("Livro não encontrado"));
+    }
+
+    @Transactional
+    public void excluir(Long id) {
+        usuarioRepository.deleteById(id);
+    }
+}

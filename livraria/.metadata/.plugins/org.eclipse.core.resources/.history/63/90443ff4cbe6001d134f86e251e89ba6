@@ -1,0 +1,5 @@
+package br.senai.sp.livraria.dto;
+
+public class LivroDetalheDTO {
+
+}

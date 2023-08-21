@@ -1,0 +1,79 @@
+[	
+
+
+
+	    {
+        "nome": "Carla Clarice Ferreira",
+        "cpf": "95736264030",
+        "email": "carla-ferreira78@zoomfoccus.com.br",
+        "login": "carla-ferreira78@zoomfoccus.com.br",		
+        "senha": "xaxa123"
+    },
+	
+	    {
+        "nome": "Ricardo Cláudio Vinicius Rocha",
+        "cpf": "13527318518",
+        "email": "ricardo-rocha99@citadini.imb.br",
+        "login": "ricardo-rocha99@citadini.imb.br",		
+        "senha": "xaxa"
+    },
+
+    {
+        "nome": "Esther Cláudia Rita de Paula",
+        "cpf": "51579261973",
+        "email": "esther_depaula@mirafactoring.com.br",
+        "login": "esther_depaula@mirafactoring.com.br",		
+        "senha": "xaxa"
+       
+    },
+    {
+        "nome": "Marlene Andrea Moreira",
+        "cpf": "28235336308",
+        "email": "marleneandreamoreira@gmindustria.com.br",
+        "login": "marleneandreamoreira@gmindustria.com.br",		
+        "senha": "xaxa"		
+
+    },
+    {
+        "nome": "Eduardo Pedro Henrique da Silva",
+        "cpf": "45692022419",
+        "email": "eduardo.pedro.dasilva@jmmarcenaria.com.br",
+        "login": "eduardo.pedro.dasilva@jmmarcenaria.com.br",		
+        "senha": "xaxa"		
+    },
+    {
+        "nome": "Rafael Hugo Benjamin da Mata",
+        "cpf": "62523058987",
+        "email": "rafael-damata71@asproplastic.com.br",
+        "login": "rafael-damata71@asproplastic.com.br",		
+        "senha": "xaxa"
+    },
+    {
+        "nome": "Rafaela Jennifer Heloise Farias",
+        "cpf": "73667725426",
+        "email": "rafaela.jennifer.farias@jp.ind.br",
+       "login": "rafaela.jennifer.farias@jp.ind.br",		
+        "senha": "xaxa"
+    },
+    {
+        "nome": "Aline Ayla Pereira",
+        "cpf": "89556241310",
+        "email": "aline_ayla_pereira@corp.inf.br",
+		"login": "aline_ayla_pereira@corp.inf.br",		
+        "senha": "xaxa"
+    },
+    {
+        "nome": "Maria Ayla Pereira",
+        "cpf": "89556241310",
+        "email": "mariapereira@corp.inf.br",
+		"login": "mariapereira@corp.inf.br",		
+        "senha": "xaxa"
+    },
+    {
+        "nome": "Joaquina Pereira",
+        "cpf": "89556641310",
+        "email": "joaquinapereira@corp.inf.br",
+		"login": "joaquinapereira@corp.inf.br",		
+        "senha": "xaxa"
+    }
+]

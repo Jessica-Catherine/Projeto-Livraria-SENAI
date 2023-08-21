@@ -1,0 +1,95 @@
+* {
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 8%;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.linhaHorizontal {
+  width: 100%;
+  border: 0.05px outset #cccccc3e;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+.voltarHome{
+  color: #959595;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 12vh;
+  margin-left: 0.1em;
+}
+
+.formContact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Alinhar os labels à esquerda */
+  justify-content: center;
+  border-radius: 0.5rem;
+  border-color: none;
+  margin: 50px auto;
+  padding: 30px 100px ;
+  color: #747474;
+  background: #cccccc3e;
+  width: 100%;
+
+  /* Responsividade */
+  max-width: 800px; /* Defina o tamanho máximo para evitar que o formulário fique muito largo */
+}
+
+.formContactLabel {
+  margin-bottom: 0.5rem;
+  text-align: left;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-weight: bold;
+  border: none;
+}
+
+.formContactInput,
+.formContactTextArea {
+  width: 100%;
+  border-radius: 0.25rem;
+  margin-bottom: 0.8rem;
+  font-size: inherit;
+  color: #747474;
+  padding: 10px;
+  border: none;
+}
+
+.formContactInput {
+  background-color: white;
+}
+
+.formContactInput:focus,
+.formContactTextArea:focus,
+.inputAdmImagem {
+  outline: none;
+  background-color: white;
+}
+
+.formContactButton {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background: #959595;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  height: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.formContactButton:hover {
+  color: #fbf4f4;
+  background: #bebebe;
+}

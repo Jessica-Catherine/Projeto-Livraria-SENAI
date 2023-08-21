@@ -1,0 +1,18 @@
+.button{
+    width: 60px;
+    margin-top: 15vh;
+    margin-left: 180px;
+    margin-bottom: 2%;
+}
+
+
+.button1{
+    background-color: #033579;
+    width: 100%;
+    color: white;
+    height: 40px;
+    border-radius: 12%;
+    border: none;
+    font-size: 14px;
+}
+

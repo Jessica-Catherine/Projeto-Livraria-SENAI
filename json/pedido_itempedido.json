@@ -1,0 +1,22 @@
+
+pedido
+{
+"usuario": {
+    "id": 1
+  }
+}
+
+
+itempedido
+{
+   "detalheLivro": {
+      "id": 1
+   },
+   "pedido": {
+      "id": 2
+   },
+   "valorUnid": 29.90,
+   "valorTotal": 59.80,
+   "qtdeItens": 2
+}
+

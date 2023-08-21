@@ -1,0 +1,126 @@
+{
+  "uf": "SP",
+  "cidade": "São Paulo",
+  "logradouro": "Rua A",
+  "bairro": "Centro",
+  "numero": "100",
+  "complemento": "",
+  "cep": "01001-000",
+  "usuario": {
+    "id": 1
+  }
+}
+{
+  "uf": "RJ",
+  "cidade": "Rio de Janeiro",
+  "logradouro": "Avenida B",
+  "bairro": "Copacabana",
+  "numero": "500",
+  "complemento": "Apto 100",
+  "cep": "22020-010",
+  "usuario": {
+    "id": 2
+  }
+}
+{
+  "uf": "MG",
+  "cidade": "Belo Horizonte",
+  "logradouro": "Rua C",
+  "bairro": "Savassi",
+  "numero": "200",
+  "complemento": "",
+  "cep": "30130-010",
+  "usuario": {
+    "id": 3
+  }
+}
+{
+  "uf": "PR",
+  "cidade": "Curitiba",
+  "logradouro": "Rua D",
+  "bairro": "Batel",
+  "numero": "300",
+  "complemento": "",
+  "cep": "80420-090",
+  "usuario": {
+    "id": 4
+  }
+}
+{
+  "uf": "SC",
+  "cidade": "Florianópolis",
+  "logradouro": "Rua E",
+  "bairro": "Centro",
+  "numero": "150",
+  "complemento": "",
+  "cep": "88010-000",
+  "usuario": {
+    "id": 5
+  }
+}
+
+{
+    "uf": "SP",
+    "cidade": "São Paulo",
+    "logradouro": "Rua A",
+    "bairro": "Bairro A",
+    "numero": "123",
+    "complemento": "Ap 1",
+    "cep": "12345-678",
+    "usuario": {
+        "id": 1
+    }
+}
+
+{
+    "uf": "RS",
+    "cidade": "Porto Alegre",
+    "logradouro": "Rua D",
+    "bairro": "Bairro D",
+    "numero": "987",
+    "complemento": "",
+    "cep": "45678-901",
+    "usuario": {
+        "id": 2
+    }
+}
+{
+    "uf": "PR",
+    "cidade": "Curitiba",
+    "logradouro": "Rua E",
+    "bairro": "Bairro E",
+    "numero": "654",
+    "complemento": "",
+    "cep": "56789-012",
+    "usuario": {
+        "id": 3
+    }
+}
+
+{
+    "uf": "BA",
+    "cidade": "Salvador",
+    "logradouro": "Rua I",
+    "bairro": "Bairro I",
+    "numero": "678",
+    "complemento": "Casa 1",
+    "cep": "90123-456",
+    "usuario": {
+        "id": 4
+    }
+}
+
+{
+    "uf": "ES",
+    "cidade": "Vitória",
+    "logradouro": "Rua H",
+    "bairro": "Bairro H",
+    "numero": "345",
+    "complemento": "",
+    "cep": "89012-345",
+    "usuario": {
+        "id": 4
+    }
+}
+
+

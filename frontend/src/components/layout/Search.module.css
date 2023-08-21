@@ -1,0 +1,321 @@
+.searchFormContainer {
+  flex: 1;
+  width: 100%;
+  margin-bottom: 7px
+}
+
+.searchForm {
+  height: 100%;
+  width: 100%;
+  max-width: 45vh;
+  background: white;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+}
+
+.searchFormInput {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 0 5px;
+  color: #015a80;
+  font-size: 16px;
+  border-radius: 0 0 0 5px;
+}
+
+.searchFormButton {
+  border: none;
+  outline: none;
+  background-color: white;
+  border-radius: 0 5px 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchFormButton svg {
+  font-size: 2vh;
+  color: grey;
+  margin-right: 5px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  .searchFormContainer {
+    width: 72vh;
+    margin-top: 1vh;
+    margin-right: 40px;
+  }
+
+  .searchForm {
+    height: 4vh;
+    max-width: 100%;
+    border-radius: 5px;
+    width: 30vh;
+  }
+
+  .searchFormInput {
+    font-size: 14px;
+    border-radius: 5px;
+    width: 25vh;
+  }
+
+  .searchFormButton svg {
+    font-size: 2.5vh;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 576px) {
+  .searchFormContainer {
+    width: 75vh;
+    margin-top: 1vh;
+    margin-right: 15px;
+  }
+
+  .searchForm {
+    height: 4vh;
+    max-width: 100%;
+    border-radius: 5px;
+    width: 35vh;
+  }
+
+  .searchFormInput {
+    font-size: 14px;
+    border-radius: 5px;
+    width: 30vh;
+  }
+
+  .searchFormButton svg {
+    font-size: 2.5vh;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .searchFormContainer {
+    width: 100%;
+    margin-top: 1vh;
+  }
+
+  .searchForm {
+    height: 4vh;
+    max-width: 100%;
+    border-radius: 5px;
+    width: 55vh;
+  }
+
+  .searchFormInput {
+    font-size: 14px;
+    border-radius: 5px;
+    width: 40vh;
+  }
+
+  .searchFormButton svg {
+    font-size: 2.5vh;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .searchFormContainer {
+    width: 60%;
+    margin-top: 1vh;
+  }
+
+  .searchForm {
+    height: 4vh;
+    max-width: 100%;
+    border-radius: 5px;
+  }
+
+  .searchFormInput {
+    font-size: 16px;
+    border-radius: 5px;
+  }
+
+  .searchFormButton svg {
+    font-size: 2vh;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .searchFormContainer {
+    width: 40%;
+    margin-top: 1vh;
+  }
+
+  .searchForm {
+    height: 4vh;
+    max-width: 100%;
+    border-radius: 5px;
+  }
+
+  .searchFormInput {
+    font-size: 18px;
+    border-radius: 5px;
+  }
+
+  .searchFormButton svg {
+    font-size: 2.5vh;
+  }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1440px) {
+  .searchFormContainer {
+    width: 30%;
+    margin-top: 1vh;
+  }
+
+  .searchForm {
+    height: 4vh;
+    max-width: 100%;
+    border-radius: 5px;
+  }
+
+  .searchFormInput {
+    font-size: 20px;
+    border-radius: 5px;
+  }
+
+  .searchFormButton svg {
+    font-size: 3vh;
+  }
+}
+
+@media only screen and (min-width: 1441px) {
+  .searchFormContainer {
+    width: 25%;
+    margin-top: 1vh;
+  }
+
+  .searchForm {
+    height: 4vh;
+    max-width: 100%;
+    border-radius: 5px;
+  }
+
+  .searchFormInput {
+    font-size: 22px;
+    border-radius: 5px;
+  }
+
+  .searchFormButton svg {
+    font-size: 3.5vh;
+  }
+}
+
+@media only screen and (min-width: 498px) and (max-width: 576px) {
+  .searchFormContainer {
+    margin-top: 1vh;
+  }
+
+  .searchForm {
+    height: 4vh;
+    max-width: 40%;
+    border-radius: 5px;
+    margin-left: 120px;
+  }
+
+  .searchFormInput {
+    font-size: 14px;
+    border-radius: 5px;
+    width: 10vh;
+  }
+
+  .searchFormButton svg {
+    font-size: 2.5vh;
+  }
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 497px) {
+  .searchFormContainer {
+    margin-top: 1vh;
+    display: flex;
+  }
+
+  .searchForm {
+    height: 4vh;
+    max-width: 30%;
+    border-radius: 5px;
+    margin-left: 150px;
+  }
+
+  .searchFormInput {
+    font-size: 14px;
+    border-radius: 5px;
+    width: 10vh;
+  }
+
+  .searchFormButton svg {
+    font-size: 2.5vh;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .searchFormContainer {
+    margin-top: 1vh;
+  }
+
+  .searchForm {
+    height: 4vh;
+    max-width: 50%;
+    border-radius: 5px;
+    margin-left: 90px;
+  }
+
+  .searchFormInput {
+    font-size: 14px;
+    border-radius: 5px;
+    width: 40vh;
+  }
+
+  .searchFormButton svg {
+    font-size: 2.5vh;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .searchFormContainer {
+    width: 40%;
+    margin-top: 1vh;
+  }
+
+  .searchForm {
+    height: 4vh;
+    max-width: 100%;
+    border-radius: 5px;
+  }
+
+  .searchFormInput {
+    font-size: 16px;
+    border-radius: 5px;
+  }
+
+  .searchFormButton svg {
+    font-size: 2vh;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .searchFormContainer {
+    width: 40%;
+    margin-top: 1vh;
+  }
+
+  .searchForm {
+    height: 4vh;
+    max-width: 100%;
+    border-radius: 5px;
+  }
+
+  .searchFormInput {
+    font-size: 18px;
+    border-radius: 5px;
+  }
+
+  .searchFormButton svg {
+    font-size: 2.5vh;
+  }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1440px) {
+}

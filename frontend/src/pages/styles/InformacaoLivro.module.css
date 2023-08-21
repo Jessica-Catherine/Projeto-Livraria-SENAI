@@ -1,0 +1,704 @@
+.container{
+  margin: 8%;      
+  justify-content: center;
+  align-items: center;
+      z-index: 1;      
+      text-shadow: 5px 5px 15px rgba(1, 23, 61, 0.22)
+}
+
+.teste{
+  background: #015a80;
+}
+   
+.linhaHorizontal {
+  width: 100%;
+  border: 0.05px outset #cccccc3e;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+
+.voltarHome{
+  color: #959595;
+  cursor: pointer;
+  font-size: 1em;
+  margin-left: 0.1em;
+}
+    
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 18% 50% 23%; /* Alterado */
+    grid-template-rows: 35em;
+    gap: 4.5em;
+    color: #747474;
+    max-width: 100%;
+  }
+
+    .gridContainerAdm {
+    display: grid;
+    grid-template-columns: 25% 55% 20%;
+    grid-template-rows: 60em;
+
+    color: #146b97;  
+  }
+
+  .gridItemLong {
+    font-size: 30px;
+    text-align: center;
+    color: #959595; 
+    max-height: 700px;
+    overflow: auto;
+  }
+
+  .gridItemLongAdm {
+    font-size: 30px;
+    text-align: center;
+    color: #959595; 
+    overflow: auto;
+  }
+
+
+    .containerInfoLivro {
+    max-height: 700px;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .containerInfoLivro {
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+.divTituloFavorito{
+  display: flex;
+  justify-content: right;
+  margin-right: 20px;
+  font-size: 1em;
+}
+
+.tituloFavorito{
+  color: #747474;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.tituloFavorito:hover{
+  color: #146b97;
+  font-size: 1.5em;
+}
+
+  .imagemLivro{
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px rgba(1, 23, 61, 0.22);
+    width: 100%;
+  }
+
+  .titulo{
+    font-weight: bold;
+    color: #747474;
+    font-size: 1em;
+    margin: 0;
+    margin-bottom: 1.2em;
+  }
+
+  .autor{
+    text-align: left;
+    font-size: 16px;    
+    color: #747474;
+    margin-bottom: 1em;
+  }
+
+  .editora{
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+.tipoLivroDetalhe{
+  display: flex;
+  justify-content: space-around;
+}
+  
+ .buttonTipoLivroFisico, .buttonTipoLivroEbook{
+  color: white;
+    font-size: 14px;
+    font-weight: bold;
+    height: 4em;
+
+    background: #146b97b2;
+    margin: 5px 0 5px 0;
+    border: none;
+    border-radius: 7px;
+    max-width: 20em;
+    min-width: 10em;
+  }
+
+  .textoSinopse {
+    text-align: justify;
+  }
+  
+.textoDireita {
+
+  }
+
+/*   
+  .buttonTipoLivroFisico:hover, .buttonTipoLivroEbook:hover{
+    cursor: pointer;
+    background:rgba(192, 225, 255, 0.448);
+    text-decoration: none;
+    color: #146b97bd; 
+  } */
+
+  .buttonTipoLivroFisico:focus, .buttonTipoLivroEbook:focus{
+    background-color: #747474a2;
+    color: white;
+  }
+
+      
+  .linhaHorizontalDetalhe {
+    width: 100%;
+    border: 0.05px outset #cccccc3e;
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+}
+
+  .sinopse{
+    text-align: justify;
+    font-weight: 400;
+    color: #747474;
+  font-size: 0.55em; 
+
+  }
+
+  .divComprarLivros{
+    background: #f5f5f5;
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 3em;
+    box-shadow: 2px 2px 12px 2px rgba(1, 23, 61, 0.22);
+  }
+
+  .divTipoLivros{
+
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 2px 2px 12px 2px rgba(1, 23, 61, 0.22);
+  }
+
+
+  .compra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .ulCompraInfo, .ulCompraInfoEntrega, .ulCompraInfoTipo, .ulCompraInfoAdm{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    flex-wrap: nowrap;
+    font-size: 15px;
+    color: #747474;
+    margin-bottom: 0;
+    list-style-type: none;
+
+  }
+
+
+  
+.liCompraInfoTitPreco{
+    font-weight: 800; 
+    color: #747474;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+
+  .liCompraInfoTit, .ulCompraInfoTipo{
+    font-weight: 700; 
+    margin-bottom: 15px; 
+    font-size: 1em; 
+
+  }
+
+
+
+
+  .liInfoTit{
+    font-weight: 800; 
+    margin-bottom: 15px; 
+    font-size: 20px; 
+  }
+
+  .liEntrega {
+    padding: 0;
+    font-weight: 700; 
+    color: #5c5c5c;
+ 
+  }
+
+
+
+  .estoque{
+    font-weight: 700; 
+    font-size: 18px;
+    color:  #015a80;
+  }
+
+
+.buttonCompra{
+    width: 100%;
+    height: 2.3em;
+    border-radius: 10px;
+    background-color: #015a80;
+    border: none;
+    margin-top: 15px;   
+    cursor: pointer;
+  }
+
+  .buttonCompra:hover{
+    background: #076a95;
+  }
+
+
+  .h1AdicionarSacola{
+    font-size: 12px;
+    text-align: center;  
+    font-weight: bold;
+    margin: 0;
+    color: #ffff;
+  }
+
+  
+  .h2AdicionarSacola{
+    color: #033479d4; 
+   text-align: center;  
+    font-weight: bold;
+  }
+
+  .buttonFecharModal{
+    background:#033479d4;
+    border-radius: 50%;
+    width: 2em;
+    height: 1.7em;
+    border: none;
+  }
+
+
+  .imgFechar{
+    color: aliceblue;
+    margin-top: 4px;
+  }
+
+
+
+
+
+  .precoAntigo{
+    text-decoration: line-through;
+    color: brown;
+    text-align: left;
+    margin: 0;
+    height: 2em;
+    font-size: 20px;
+  }
+  
+  .precoOferta, .precoRegular{
+    color: #146b97; 
+    margin: 0;
+  }
+    
+
+
+
+
+  .ficha{
+    border: solid 1px #cccccc3e ;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 1px 1px 20px 1px rgba(1, 23, 61, 0.042);
+    margin: 20px;
+
+  }
+
+  .ficha1, .ficha2, .fichaBolean, .fichaAdm {
+
+    justify-content: space-between;
+    padding: 7px;
+    flex-wrap: nowrap;
+    font-size: 17px;
+    color: rgb(122, 122, 122);
+    border-radius: 10px;
+    margin-bottom: 0;
+    list-style-type: none;
+  }
+
+
+  .fichaBolean {
+    display: flex;
+    justify-content: space-around;
+    gap: 3em;
+  }
+
+  .ficha1{
+    background: #cccccc3e;
+  }
+
+    .ficha2{
+    background: #cccccc8e;
+  }
+
+
+  .fichaH1, .fichaH1Adm{
+        text-align: left;
+        font-size: 1.3em;
+        margin-left: 0.2em;
+        margin-bottom: 0.4em;
+        color: #959595;
+  }
+
+  .inputAdm, .inputAdmSinopse, .inputAdmImagem{
+    margin: 0.2em 0 0 0;
+    width: 100%;
+    height: 2em;
+    padding: 5px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 7px;
+    box-sizing: border-box;
+    color: #033579;
+    background: aliceblue;
+  }
+  
+  .inputAdm::-webkit-scrollbar,   
+  .inputAdmSinopse::-webkit-scrollbar,
+  .inputAdmImagem::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  } 
+
+
+  .inputAdm:focus, .inputAdmSinopse:focus, .inputAdmImagem {
+    outline: none;
+  }
+
+  .inputAdmSinopse{
+    height: 20em;
+    text-align: justify;
+  }
+
+  .inputAdmImagem{
+    height: 5.5em;
+    text-align: justify;
+  }
+
+  .fichaInfo{
+    text-align: left;
+    /* margin-left: 20px; */
+  }
+
+
+  li .fichaTh, label .fichaH1.fichaTh1{
+    font-weight: bold;
+    text-align: left;
+  }
+
+.fichaTh1{
+    font-weight: bold;
+    text-align: left;
+    width: 100px;
+  }
+
+  .fichaTrAdm{
+    color: #146b97;
+    text-align: left;
+  }
+
+  span{
+    margin: 15px;
+
+  }
+
+  .precoAntigo{
+    text-decoration: line-through;
+    color: brown;
+    font-size: 15px;
+  
+  }
+  
+  .precoOferta, .precoRegular, .precoTit{
+    color: #146b97; 
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .containerButtonAdm{
+    display: flex;
+    justify-content: center;
+
+}
+
+.buttonCardAdm{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  height: 2em;
+  width: 15em;
+  background: #146b97b2;
+  margin: 5px 0px 5px 50px;
+  border: none;
+  border-radius: 7px;
+}
+
+.buttonCardAdm:hover{
+  background-color: #146b97;
+  color: white;
+}
+
+
+.buttonFecharModal{
+  background:#033479d4;
+  border-radius: 50%;
+  width: 2em;
+  height: 1.7em;
+}
+  
+.gridFichaTecnica{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 9em;
+  grid-gap: 10px; 
+  margin-bottom: 100px;
+
+}
+
+.gridItemFichaTecnica {
+  background: #eaeaea40;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.iconFichaTecnica{
+  font-size: 2em;
+  color: #363636;
+  margin-bottom: 20px;
+  
+}
+
+.tituloFichaTecnica {
+  font-size: 1em;
+  font-weight: 400;
+  color: #747474;
+  margin-bottom: 20px;
+}
+
+.infoFichaTecnica{
+  font-weight: 400;
+  color: #747474; 
+
+}
+
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+
+  .container{
+    margin: 15% 2% 0 2%;      
+  }
+
+  .divComprarLivros{
+    padding: 3px;
+  }
+
+  .divTipoLivros{
+    padding: 10px;
+  }
+
+  .liEntrega {
+  font-size: 0.7em;
+  }
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 18% 42% 30%; /* Alterado */
+  }
+
+.gridContainerAdm {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 70em;
+    gap: 0; /* Alterado */
+  }
+
+
+  .precoOferta{
+    font-size: 0.9em;
+  }
+  .buttonCompra{
+    width: 90%;
+    height: 2.3em;
+    margin: 10px;
+  }
+ 
+  .liInfoTit{
+    font-size: 1em;
+  }
+  .fichaBolean {
+    display: inline-block;
+    gap: 0;
+  }
+
+
+  }
+ 
+
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+
+  
+  
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+      
+  .container{
+    margin: 12% 5% 0 5%;      
+  }
+
+  .divComprarLivros{
+    padding: 5px;
+  }
+
+  .liEntrega {
+  font-size: 0.8em;
+
+ 
+  }
+  
+  .fichaBolean {
+    display: inline-block;
+    justify-content: space-around;
+    gap: 3em;
+  }
+
+  .gridContainerAdm {
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 70em;
+
+    color: #146b97;  
+  }
+
+
+
+}
+
+
+@media only screen and (min-width: 1201px) and (max-width: 1440px) {
+  .container {
+    margin: 7% 6% 0 6%;
+
+  }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  .container {
+    margin: 60% 2% 0 2%;
+
+  }
+
+  .gridContainer, .gridContainerAdm  {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Alterado */
+    grid-template-rows: auto; /* Alterado */
+    gap: 2em;
+    color: #146b97;
+    max-width: 100%;
+  }
+
+
+  .titulo {
+    font-size: 0.7em;
+    margin-bottom: 0.5em;
+  }
+
+  .autor {
+    font-size: 0.6em;
+  }
+
+  .editora {
+    font-size: 0.5em;
+  }
+
+  .buttonCompra {
+    height: 2.5em;
+  }
+
+  .precoAntigo {
+    font-size: 1em;
+  }
+
+  .precoOferta,
+  .precoRegular {
+    font-size: 1em;
+  }
+
+  .ficha1,
+  .ficha2 {
+    padding: 10px;
+  }
+
+  .ficha1,
+  .ficha2,
+  .fichaBolean,
+  .fichaAdm {
+    font-size: 14px;
+  }
+
+  .fichaBolean {
+    display: inline-block;
+    gap: 0;
+  }
+
+  .inputAdm,
+  .inputAdmSinopse,
+  .inputAdmImagem {
+    margin: 0.2em 0 0 0;
+    height: 2em;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 7px;
+    box-sizing: border-box;
+    font-size: 12px;
+  }
+
+  .inputAdmSinopse {
+    height: 10em;
+  }
+
+  .inputAdmImagem {
+    height: 3em;
+  }
+
+  .buttonCardAdm {
+    font-size: 16px;
+    height: 2em;
+    width: 10em;
+    margin: 5px 0px 5px 20px;
+  }
+
+  .buttonFecharModal {
+    width: 1.5em;
+    height: 1.3em;
+  }
+
+  .imagemLivro{
+    width: 50%;
+  }
+}
+
+
+
+

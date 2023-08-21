@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containeUserLogin {
+    display: grid;
+    grid-template-columns: 40% 60%; 
+    grid-template-rows: 50em;
+    margin: 5% 20%;
+   
+}
+
+
+.containeUserLoginEntrar {
+    display: grid;
+    grid-template-columns:60% 40% ; 
+    grid-template-rows: 40em;
+    margin: 10% 20%;
+   
+}
+
+.itemLoginBemVindo {
+    border-radius: 20px 0 0 20px;
+    background-color: #015a80;
+    padding: 20px;
+    color: aliceblue;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.itemLoginContaEntrar {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 0 0 20px;
+  }
+
+  .itemLoginMsg {
+    background-color: #015a80;
+    padding: 20px;
+    border-radius: 0 20px 20px 0;
+    color: aliceblue;    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+ 
+.itemLoginMsg h1 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .loginInfoMsg{
+    width: 70%;
+
+  }
+  
+  .loginInfoMsgH2 {
+    font-size: 16px;
+    font-weight: 100;
+  }
+
+  .loginInfoMsgp{
+    color:aqua;
+    font-weight: 500;
+  }
+
+
+
+  .loginLogo{
+    margin-bottom: 20px;
+  }
+  
+  .itemLoginBemVindo div {
+    margin-bottom: 10px;
+  }
+  
+  .itemLoginBemVindo h1 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .loginInfo{
+    width: 50%;
+
+  }
+  
+  .loginInfoH2 {
+    font-size: 16px;
+    font-weight: 100;
+  }
+  
+  .buttonLoginEntrar, .buttonLoginCadastrar, .buttonExpandirEndereco {
+    padding: 7px 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10%;
+    color: #015a80;
+    background-color: aliceblue;
+    cursor: pointer;
+  }
+  
+  .buttonLoginCadastrar, .buttonExpandirEndereco {
+    color: white;
+    background-color: #015a80;
+    padding: 8px 30px;
+    text-align: center;
+  }
+
+  .buttonExpandirEndereco {
+    margin: 5% 0;
+    font-size: 0.9em;
+    padding: 8px 59px;
+  }
+
+  .buttonLoginCadastrar:hover, .buttonExpandirEndereco:hover{
+    color: rgb(240, 248, 255);
+    background-color: #015a80e5;
+  }
+
+  .buttonLoginEntrar:hover {
+    color: #015a80e5;
+    background-color: rgb(196, 228, 255);
+  }
+
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+
+.itemLoginConta {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 20px 20px 0;
+  }
+  
+  
+  .loginContaH2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #015a80;
+  }
+  
+  .iconContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #ccc ;
+    border-radius: 5px;
+    width: 20em;
+  }
+  
+  .iconFormLogin {
+    margin: 0 15px;
+  }
+  
+  .inputFormLogin, .inputCadastrarEndereco {
+    padding: 8px;
+    border: none;
+    border: 1px solid #ccc;
+    width: 20em;
+    background-color: #ccc;
+  }
+
+  .inputFormLogin:focus, .inputCadastrarEndereco:focus{
+    outline: none;
+  }
+
+  .inputCadastrarEndereco {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 24em;
+  }
+
+
+  
+  .alternarSenha svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .buttonCompra{
+    width: 100%;
+    height: 2.3em;
+    border-radius: 10px;
+    background: scroll;
+    border: none;
+    margin-top: 15px;   
+    cursor: pointer;
+  }
+  
+  .h1AdicionarSacola{
+    font-size: 12px;
+    text-align: center;  
+    font-weight: bold;
+    margin: 0;
+    color: #ffff;
+  }
+  
+  
+  .h2AdicionarSacola{
+    color: #015a80; 
+   text-align: center;  
+    font-weight: bold;
+  }
+  
+  .buttonFecharModal{
+    background:#015a80;
+    border-radius: 50%;
+    width: 2em;
+    height: 1.7em;
+    border: none;
+  }
+  
+ 
+  .imgFechar{
+    color: aliceblue;
+    margin-top: 4px;
+  }
+
+  .containerEndereco {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+
+  .containeUserLogin, .containeUserLoginEntrar {
+    margin: 20% 5%;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  
+  .itemLoginBemVindo{
+    border-radius: 20px 20px 0 0;
+  }
+
+  .itemLoginContaEntrar {
+    border-radius: 20px 20px 0 0;
+  }
+
+
+  .itemLoginConta, .itemLoginMsg {
+    border-radius: 0 0 20px 20px;
+  }
+}   
+
+  @media only screen and (min-width: 769px) and (max-width: 992px) {
+    .containeUserLogin, .containeUserLoginEntrar {
+      margin: 20% 5%;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+    }
+    
+    .itemLoginBemVindo{
+      border-radius: 20px 20px 0 0;
+    }
+  
+    .itemLoginContaEntrar {
+      border-radius: 20px 20px 0 0;
+    }
+  
+  
+    .itemLoginConta, .itemLoginMsg {
+      border-radius: 0 0 20px 20px;
+    }
+  }
+  
+  @media only screen and (min-width: 993px) and (max-width: 1200px) {
+        
+
+  
+  }
+  
+  
+  @media only screen and (min-width: 1201px) and (max-width: 1440px) {
+  
+    }
+  
+
+    @media only screen and (min-width: 320px) and (max-width: 576px) {
+        .containeUserLogin, .containeUserLoginEntrar {
+          margin: 40% 5%;
+          grid-template-columns: 1fr;
+          grid-template-rows: auto;
+        }
+        
+        .itemLoginBemVindo, .itemLoginMsg {
+          border-radius: 20px;
+          grid-row: 1;
+          margin-bottom: 20px;
+        }
+        
+        .loginInfo {
+          width: 100%;
+        }
+        
+        .itemLoginConta, .itemLoginContaEntrar {
+          border-radius: 20px;
+        }
+        
+        .iconContainer{
+          width: 100%;
+        }
+        
+        .inputFormLogin {
+          width: 100%;
+        }
+      }
+      

@@ -1,0 +1,184 @@
+.container {
+  margin: 7% 8% 0 8%;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  text-shadow: 5px 5px 15px rgba(1, 23, 61, 0.22);
+
+}
+
+.linhaHorizontal, .linhaHorizontalForm {
+  width: 100%;
+  border: 0.05px outset rgba(144, 202, 252, 0.26);
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
+
+.linhaHorizontalForm {
+  margin: 0;
+  margin-bottom: 1.5em;
+}
+
+
+.voltarHome {
+  color: #146b97;
+  cursor: pointer;
+  margin-top: 12vh;
+  margin-left: 0.5vh;
+  font-size: 1em;
+}
+
+.containerGridPerfil {
+  display: grid;
+  grid-template-columns: 20% minmax(45%, auto);
+  grid-template-rows: auto;
+  gap: 2%;
+  color: #646464;
+  max-width: 100%;
+  justify-content: center;
+}
+
+
+
+.gridPerfil {
+  padding: 8% 10%;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+
+.gridPerfilLista {
+  list-style: none;
+  padding: 2% 5%;
+}
+
+
+.gridPerfilListaItem {
+  background-color: aliceblue;
+  padding: 2% 5%;
+  list-style: none;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.gridPerfilForm {
+  background-color: aliceblue;
+  padding: 2% 5%;
+  border-radius: 5px;
+}
+
+
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: #ccc ;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.iconPerfil{
+  font-size: 3em;
+}
+
+.inputForm {
+  padding: 8px;
+  border: none;
+  width: 100%;
+  background-color: #cccccc89;
+  border-radius: 5px;
+
+}
+
+.inputForm:focuss{
+  outline: none;
+}
+
+.iconFormLabel{
+  margin: 0 10px;
+}
+
+.active{
+  background-color: #cccccc89;
+}
+
+.buttonSalvarPerfil{
+  margin-bottom: 5%;
+}
+
+.buttonExpandirSenha, .buttonSalvarPerfil{
+  background-color: #146b978e;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  height: 2em;
+  margin-top: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.buttonExpandirSenha:hover, .buttonSalvarPerfil.buttonExpandirSenha:hover,.buttonSalvarPerfil:hover{
+  background-color: #146b97;
+  color: whitesmoke;
+}
+
+.tabelaPedidoTh, .tabelaPedidoTr, .tabelaPedidoTd{
+  text-align: center;
+  padding: 3px;
+}
+
+.tabelaPedidoTr{
+  text-align: center;
+
+}
+
+
+.tabelaPedidoTd{
+
+  text-align: center;
+}
+
+.divPedidoImg{
+  width: 60px;
+}
+
+.pedidoImg{
+width: 100%;
+}
+
+
+.tabelaPedidoImg{
+ width: 100%;
+
+}
+
+.listaPedidoLi{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px ;
+}
+
+.tablePedido{
+  font-size: 0.8em;
+}
+
+.listaPedidoLiDiv{
+  margin: 0 15px;
+}
+
+.paginacaoButton:hover {
+  background-color: #146b97;
+  color: white;
+}
+
+.paginacaoButton {
+  margin-top: 20px;
+  margin-right: 5px;
+  color: white;
+  background: #146b97b2;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}

@@ -1,0 +1,119 @@
+.navbarButton, .navbarButtonFav {
+  background-color: #015a80;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  width: 4vh;
+  height: 4vh;
+  color: white;
+  display: flex; /* Adicionado */
+  align-items: center; /* Adicionado */
+}
+    
+.navbarButton {
+  display: flex;
+}
+
+
+.cartCount {
+  color: white;
+  font-size: 1em;
+  margin-right: 0.2em; /* Ajuste a margem conforme necessário */
+  position: relative;
+  top: 0.9em; /* Ajuste o valor conforme necessário para mover a quantidade para cima ou para baixo */
+}
+
+
+
+/* Ajustes para telas entre 320px e 576px */
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  .navbarButton,
+  .navbarButtonFav {
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+  }
+
+  .navbarCesta {
+    font-size: 1.5rem;
+  }
+}
+
+/* Ajustes para telas entre 577px e 768px */
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .navbarButton,
+  .navbarButtonFav {
+    width: 35px;
+    height: 35px;
+    font-size: 1.2rem;
+  }
+
+  .navbarCesta {
+    font-size: 1.2rem;
+  }
+}
+
+/* Ajustes para telas entre 769px e 992px */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .navbarButton,
+  .navbarButtonFav {
+    width: 40px;
+    height: 40px;
+    font-size: 1.4rem;
+  }
+
+  .navbarCesta {
+    font-size: 1.4rem;
+  }
+}
+
+/* Ajustes para telas entre 993px e 1200px */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .navbarButton,
+  .navbarButtonFav {
+    width: 45px;
+    height: 45px;
+    font-size: 1.6rem;
+  }
+
+  .navbarCesta {
+    font-size: 1.6rem;
+  }
+}
+
+/* Ajustes para telas entre 1201px e 1440px */
+@media only screen and (min-width: 1201px) and (max-width: 1440px) {
+  .navbarButton,
+  .navbarButtonFav {
+    width: 50px;
+    height: 50px;
+    font-size: 1.8rem;
+    padding: 0;
+    text-align: center;
+  }
+
+  .navbarCesta {
+    font-size: 1.8rem;
+  }
+
+  .navbarContainerCompra{
+    margin: 0;
+    padding: 0;
+  }
+
+}
+
+/* Ajustes para telas maiores que 1440px */
+@media only screen and (min-width: 1441px) {
+  .navbarButton,
+  .navbarButtonFav {
+    width: 55px;
+    height: 55px;
+    font-size: 2rem;
+  }
+
+  .navbarCesta {
+    font-size: 2rem;
+  }
+}
